@@ -202,10 +202,10 @@ ui <- dashboardPage(
                               style = "display: flex; justify-content: center; gap: 10px;",
                               tags$a(
                                 href = "https://www.pngp.it/",
-                                tags$img(src = 'PNGP_partenaire-removebg-preview.png', height = "80px", style = "object-fit: contain;")),
+                                tags$img(src = 'PNGP logo.png', height = "80px", style = "object-fit: contain;")),
                               tags$a(
                                 href = "https://rivieradeifiori.travel/fr/le-parc-naturel-regional-des-alpes-liguriennes/",
-                                tags$img(src = 'PNAL_logo-removebg-preview.png', height = "80px", style = "object-fit: contain;")),
+                                tags$img(src = 'PNAL logo.png', height = "80px", style = "object-fit: contain;")),
                               tags$a(
                                 href = "https://www.parcofluvialegessostura.it/",
                                 tags$img(src = 'PNGS logo.png', height = "80px", style = "object-fit: contain;"))
@@ -234,7 +234,7 @@ ui <- dashboardPage(
                               tags$img(src = 'IGE logo.png', height = "80px", style = "object-fit: contain;")),
                             tags$a(
                               href = "https://www.cesbio.cnrs.fr/",
-                              tags$img(src = 'CESBIO_logo-removebg-preview.png', height = "80px", style = "object-fit: contain;"))
+                              tags$img(src = 'CESBIO logo.png', height = "80px", style = "object-fit: contain;"))
                           )
                         )
                       )
