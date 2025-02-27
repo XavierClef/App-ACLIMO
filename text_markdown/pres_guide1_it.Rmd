@@ -1,0 +1,15 @@
+---
+title: "pres_guide1"
+output: html_document
+---
+### **Fase 1**  
+
+#### 1. Selezione dei bacini idrografici e dei parchi nazionali
+
+La prima fase consiste nella scelta di uno o più parchi nazionali all'interno dell'elenco disponibile, come il Parco Nazionale della Vanoise (PNV) o il Parco Nazionale degli Écrins (PNE). Successivamente, l'utente può selezionare i bacini idrografici associati ai parchi o alle aree geografiche di interesse. Questa selezione può essere effettuata tramite i menu a tendina oppure direttamente sulla mappa interattiva, cliccando sulle diverse regioni.
+Una mappa interattiva consente di visualizzare i bacini idrografici sotto forma di aree delimitate, collegate ai ghiacciai situati nei parchi selezionati. Un pulsante o un'opzione permette all'utente di aggiungere o rimuovere elementi visibili sulla mappa per una personalizzazione più precisa. Cliccando su un'area, il bacino idrografico corrispondente viene automaticamente aggiunto o rimosso dalla selezione, e una legenda o informazioni supplementari vengono visualizzate per facilitare la comprensione geografica della zona.
+
+#### 2. Statistiche e scenari
+
+In basso a sinistra dell'interfaccia, due indicatori mostrano il numero totale di ghiacciai e bacini idrografici selezionati. A destra dello schermo, l'utente può consultare tre possibili scenari di evoluzione del volume dei ghiacciai tra il 2020 e il 2050: ottimistico, intermedia o pessimistico. Per ciascun scenario, vengono presentati due tipi di dati: il volume di ghiaccio perso in percentuale (e in m³) e il contributo idrico medio annuo del ghiacciaio, espresso in litri al secondo (l/s), fornendo così una panoramica sugli impatti potenziali sull'idrologia delle regioni selezionate.
+Il pulsante «Avanti» permette di scorrere un carosello per osservare le tabelle dei dati selezionati per i tre scenari.

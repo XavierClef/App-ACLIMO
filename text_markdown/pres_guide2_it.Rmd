@@ -1,0 +1,16 @@
+---
+title: "pres_guide2"
+output: html_document
+---
+
+### **Fase 2** 
+
+### Interfaccia di visualizzazione dei dati
+
+In primo luogo (« **1** »), è necessario selezionare lo scenario da visualizzare nelle sezioni «Riepilogo» e «Visualizzazione grafica». Situata nella parte superiore dello schermo, la selezione e il cambio di scenario avvengono semplicemente cliccando sulle diverse opzioni della barra di selezione. Per impostazione predefinita, viene selezionato lo scenario intermedio.
+<br> 
+Un secondo pannello (« **2** ») di variabili consente di modificare i grafici visualizzati. Le modifiche disponibili riguardano le variabili da rappresentare: il volume (in m³) o il contributo idrico dei ghiacciai (in l/s). 
+La barra di selezione del periodo permette di scegliere l'intervallo temporale da visualizzare spostando le sue estremità. Infine, l'interruttore situato a destra della barra di selezione degli anni consente di scomporre i grafici visualizzati. Per garantire una lettura chiara, questa opzione è attiva solo se il numero di bacini idrografici selezionati è compreso tra 2 e 8. 
+<br> 
+Il terzo pannello (« **3** ») permette di visualizzare i dati in base alle variabili selezionate nei primi due pannelli. La prima rappresentazione è una mappa che mostra la differenza di spessore tra l'inizio e la fine del periodo selezionato. I tre grafici successivi consentono di osservare in modo efficace le variazioni del volume di ghiaccio o del contributo idrico. Una spiegazione sintetica dei grafici è accessibile tramite i menu situati in alto a sinistra di ciascun grafico. Si noti che il menu del primo grafico permette anche di trasformare l'asse Y in scala logaritmica (log10) per migliorare la visualizzazione dei piccoli ghiacciai.
+È possibile visualizzare i grafici a schermo intero cliccando sul pulsante situato in basso a destra di ciascun grafico. Inoltre, i grafici possono essere salvati in formato .png tramite il menu disponibile in alto a destra di ciascun grafico.

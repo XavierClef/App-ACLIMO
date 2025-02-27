@@ -1,0 +1,15 @@
+---
+title: "pres_guide1"
+output: html_document
+---
+### **Etape 1**  
+
+#### 1. Sélection des bassins versants et des parcs nationaux
+
+La première étape consiste à choisir un ou plusieurs parcs nationaux au sein de la liste disponible, tels que le Parc national de la Vanoise (PNV) ou le Parc national des Écrins (PNE). Ensuite, l'utilisateur peut sélectionner les bassins versants associés aux parcs ou zones géographiques d'intérêt. Cette sélection peut être réalisée soit via les menus déroulants, soit directement sur la carte interactive en cliquant sur les différentes régions.  
+Une carte interactive permet de visualiser les bassins versants sous forme de zones délimitées, qui sont liées aux glaciers situés dans les parcs sélectionnés. Un bouton ou une option permet à l'utilisateur d'ajouter ou de retirer des éléments visibles sur la carte pour une meilleure personnalisation. En cliquant sur une zone, le bassin versant correspondant est automatiquement ajouté ou retiré de la sélection, et une légende ou des informations supplémentaires apparaissent pour aider à la compréhension géographique de la zone.
+
+#### 2. Statistiques et scénarios
+
+En bas à gauche de l'interface, deux indicateurs affichent le nombre total de glaciers et de bassins versants qui ont été sélectionnés. À droite de l'écran, l'utilisateur peut consulter trois trajectoires d'évolution possibles de l'évolution du volume des glaciers entre 2020 et 2050 : optimiste, intermédiaire ou pessimiste. Pour chaque trajectoires, deux types de données sont présentés : le volume de glace perdu en pourcentage (et en m³) ainsi que la contribution moyenne annuelle du glacier liée à son changement de volume en litres par seconde (L/s), offrant ainsi une vue d'ensemble des impacts potentiels sur l'hydrologie des régions sélectionnées.  
+Le bouton « Suivant » permet de faire défiler un carrousel pour observer les tableaux de données sélectionnées pour les trois trajectoires.

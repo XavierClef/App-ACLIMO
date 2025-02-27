@@ -1,0 +1,32 @@
+---
+title: "pres_aclimo"
+output:
+  html_document:
+    css: "style.css"
+---
+
+<style>
+  body {
+    text-align: justify;
+  }
+</style>
+
+## ACLIMO
+
+I parchi nazionali francesi e italiani del territorio transfrontaliero si trovano ad affrontare la grande sfida del cambiamento climatico – in particolare la riduzione della disponibilità d’acqua – che, da un lato, ha un impatto negativo sulle specie e sugli habitat alpini e, dall’altro, ha ripercussioni evidenti sul sistema economico alpino e sulle attività ad alta quota. ACLIMO mira a fornire un supporto concreto ai gestori del territorio per una transizione sostenibile delle attività umane, in particolare quelle pastorali, con l'obiettivo di preservare il patrimonio naturale, attraverso una migliore conoscenza degli effetti del cambiamento climatico sugli habitat e sulle specie più vulnerabili alla riduzione della risorsa idrica.
+
+
+### Gli attori dietro ACLIMO :
+
+Il progetto ACLIMO è realizzato grazie al contributo dell'Unione Europea nell'ambito del programma Interreg VI-A Francia-Italia ALCOTRA 2021-2027 ed è finanziato per l'80% dal FEDER (Fondo Europeo di Sviluppo Regionale). Oltre al finanziamento, ACLIMO riunisce numerosi attori che, formando una solida partnership, sono:
+
+-   Il Parco nazionale del Mercantour
+-   Il Parco nazionale degli Ecrins
+-   Il Parco nazionale della Vanoise
+-   L'Ente di gestione delle Aree Protette delle Alpi Marittime
+-   Il Parco naturale regionale delle Alpi Liguri
+-   L' Ente di gestione dei Parchi delle Alpi Cozie
+-   Il Parco nazionale Gran Paradiso
+-   Il Parco fluviale Gesso e Stura - géré par la commune de Cuneo
+
+Una delle azioni del progetto ACLIMO riguarda la conoscenza della risorsa idrica nei territori montani. Per quantificare lo stato attuale e l'evoluzione di questa risorsa proveniente dalla criosfera, l'Istituto di Geoscienze dell'Ambiente di Grenoble (IGE) e il Centro di Studio Spaziale della Biosfera di Tolosa (CESBIO) sono responsabili del trattamento, rispettivamente, delle componenti glaciale e nivale.

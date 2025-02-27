@@ -1,0 +1,32 @@
+---
+title: "pres_aclimo"
+output:
+  html_document:
+    css: "style.css"
+---
+
+<style>
+  body {
+    text-align: justify;
+  }
+</style>
+
+## ACLIMO
+
+Les parcs nationaux français et italiens du territoire transfrontalier sont confrontés au grand défi du changement climatique - et en particulier à la réduction de la disponibilité en eau - qui, d'une part, a un impact négatif sur les espèces et les habitats alpins et, d'autre part, des répercussions évidentes sur le système économique alpin et les activités d'altitude. ACLIMO vise à fournir un soutien concret aux gestionnaires des territoires pour une transition durable des activités humaines, en particulier pastorales, dans le but de préserver le patrimoine naturel, grâce à une meilleure connaissance des effets du changement climatique sur les habitats et les espèces les plus vulnérables à la réduction de la ressource hydrique.
+
+
+### Les acteurs derrière ACLIMO :
+
+Le projet ACLIMO est mis en oeuvre grâce au concours de l'Union européenne dans le cadre du programme Interreg VI-A France-Italie ALCOTRA 2021-2027 et est financé à 80 % par du FEDER (Fonds Européens de Développement Régional). Au-delà du financement, ACLIMO rassemble de nombreux acteurs qui formant un partenariat solide, à savoir :
+
+-   Le Parc national du Mercantour
+-   Le Parc national des Ecrins
+-   Le Parc national de la Vanoise
+-   Ente di gestione delle Aree Protette delle Alpi Marittime
+-   Parco naturale regionale delle Alpi Liguri
+-   Ente di gestione dei Parchi delle Alpi Cozie
+-   Parco nazionale del Gran Paradiso
+-   Parco fluviale Gesso e Stura - géré par la commune de Cuneo
+
+Une des actions du projet ACLIMO porte sur la connaissance de la ressource en eau dans les territoires de montagne. Pour quantifier l'état actuel et l'évolution de cette ressource provenant de la cryosphère, l'Institut des Géosciences de l'Environnement de Grenoble (IGE) et le Centre d'Etude Spatiale de la Biosphère de Toulouse (CESBIO) sont en charge de traiter, respectivement, les composantes glaciaire et nivale.

@@ -1,0 +1,13 @@
+---
+title: "pres_guide3"
+output: html_document
+---
+
+### **Fase 3**
+
+### Interfaccia di download dei dati
+
+La prima sezione (« **1** ») consente di scaricare tutti i dati utilizzati in questa dashboard. Per farlo, è sufficiente selezionare il tipo di dati desiderato: raster dello spessore o bacino idrografico, quindi cliccare sul pulsante di download. Se si desidera scaricare i dati specifici per ciascun bacino idrografico, viene visualizzato un menu di selezione che permette di scegliere il formato dei dati: CSV o GPKG. I dati vengono scaricati direttamente per tutti e tre gli scenari. I diversi scenari sono identificabili dal prefisso delle bande (per il raster) e dal suffisso delle colonne (per i file .csv e .gpkg).
+<br> 
+La seconda sezione (« **2** ») offre funzionalità simili alla prima, con la differenza che qui è possibile scaricare solo i dati relativi ai bacini idrografici selezionati nella Fase 1.
+

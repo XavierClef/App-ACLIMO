@@ -1,0 +1,56 @@
+---
+title: "pres_data"
+output: html_document
+---
+
+### Dati derivanti dalla modellizzazione
+
+Per quanto riguarda la componente glaciale, l'obiettivo è studiare l'evoluzione dei ghiacciai entro il 2050 in tre parchi nazionali delle Alpi occidentali che contengono ghiacciai: la Vanoise, gli Écrins e il Gran Paradiso. Questo studio si basa su una combinazione di strumenti e dati di osservazione e modellizzazione.\
+<br>
+
+#### Modellizzazione dello spessore dei ghiacciai
+
+Per stimare il volume annuale e il contributo idrico di ciascun ghiacciaio, sono state utilizzate delle modellizzazioni dell'evoluzione dello spessore dei ghiacciai tra il 2020 e il 2050. Queste modellizzazioni derivano da un lavoro di ricerca condotto da un gruppo di ricercatori dell'Università di Losanna in Svizzera (UNIL, Samuel Cook e Guillaume Jouvet), dell'Università Grenoble Alpes in Francia (UGA, Antoine Rabatel e Romain Millan), dell'Università di Zurigo in Svizzera (Inès Dussaillant) e dell'Università di Bruxelles in Belgio (Harry Zekollary). La loro metodologia si basa su un'intelligenza artificiale fondata sull'apprendimento profondo, in grado di stimare l'evoluzione futura dei ghiacciai a partire da dati ottenuti tramite telerilevamento satellitare e un modello dinamico. I risultati del loro lavoro coprono l'intero arco alpino europeo. Per maggiori dettagli, si rimanda all'articolo ([lien](https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2023GL105029)).\
+<br>
+
+L'apprendimento del modello si basa anche sull'analisi storica dei cambiamenti glaciali tra il 2000 e il 2019, garantendo così che le modellizzazioni riflettano l'evoluzione osservata dei ghiacciai negli ultimi 20 anni.\
+I dati prodotti dal modello si presentano sotto forma di una molteplicità di file raster, dove ogni pixel copre, sulla mappa, una superficie di 100 m per 100 m. Gli output del modello sono stati trattati per correggere alcuni pixel con valori anomali, al fine di limitare la sovrastima dello stock di ghiaccio per i ghiacciai contenenti tali pixel aberranti.
+<br>
+A partire dalle stime dello spessore del ghiaccio, è quindi possibile conoscere il volume di ghiaccio contenuto nella superficie di un ghiacciaio. Sommando il valore dello spessore del ghiaccio di ciascun pixel all'interno della superficie di un ghiacciaio, si ottiene il volume totale del ghiacciaio per un anno specifico. Inoltre, la contribuzione idrica annuale di un ghiacciaio è stata anch'essa calcolata. Essa corrisponde all'evoluzione del volume del ghiacciaio da un anno all'altro. Viene convertita in una contribuzione annuale media, la cui valore numerico è espresso in litri al secondo (l/s). È importante notare che, se per un dato anno un ghiacciaio guadagna volume, la sua contribuzione annuale media sarà negativa, ovvero, per quell'anno, il ghiacciaio avrà immagazzinato più massa di quanta ne abbia persa.
+  
+<br>
+
+#### Delimitazione dei ghiacciai
+
+Per la delimitazione dei ghiacciai, il modello utilizza i dati del 2003 provenienti dall'inventario mondiale dei ghiacciai, resi disponibili nell'ambito del [RGI Version 6](https://nsidc.org/data/nsidc-0770/versions/6).\
+Per garantire una coerenza spaziale tra le modellizzazioni e il metodo di estrazione dei dati nell'ambito di questo progetto, è stata adottata la stessa delimitazione dei ghiacciai.\
+<br>
+
+### Scenari di evoluzione futura
+
+Il lavoro di modellizzazione realizzato da S. Cook et al (2023) propone tre scenari di evoluzione dei ghiacciai basati su quella che viene chiamata "perdita impegnata" dei ghiacciai. Questa corrisponde al livello minimo che i ghiacciai sono destinati a perdere nelle prossime decadi, tenendo conto del loro tempo di risposta (inerzia) a un cambiamento delle condizioni ambientali. Il tempo di risposta è legato alla dinamica di flusso del ghiacciaio ed è specifico per ogni ghiacciaio in base alle sue caratteristiche morfo-topografiche. Pertanto, questi tre scenari di "perdita impegnata" sono stati stabiliti a partire da diversi periodi storici di osservazione.\
+<br>
+
+#### Tre scenari prospettici (2020-2050)
+
+<div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px;">
+
+<div style="padding: 15px;">
+<h4>Scenario ottimistico</h4>
+<p><strong>Ipotesi:</strong> stabilizzazione delle condizioni di perdita di volume glaciale a quelle del periodo 2000-2019</p>
+<p><strong>Impatti:</strong> perdita del 34% di volume glaciaile alla scala di arco alpino</p>
+</div>
+
+<div style="padding: 15px;">
+<h4>Scenario intermedio</h4>
+<p><strong>Ipotesi:</strong> estrapolazione temporale del tasso di perdita di massa nel periodo 2000-2022</p>
+<p><strong>Impatti:</strong> perdita del 46% di volume glaciale alla scala di arco alpino</p>
+</div>
+
+<div style="padding: 15px;">
+<h4>Scenario pessimistico</h4>
+<p><strong>Ipotesi:</strong> proseguimento dell'accelerazione recente della perdita tramite un'estrapolazione temporale del tasso di perdita di massa nel periodo 2010-2022</p>
+<p><strong>Impatti:</strong> perdita del 65% di volume glaciale alla scala di arco alpino</p>
+</div>
+
+</div>

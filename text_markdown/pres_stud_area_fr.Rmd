@@ -1,0 +1,23 @@
+---
+title: "pres_stud_area"
+output:
+  html_document:
+    css: "style.css"
+---
+
+<style>
+  body {
+    text-align: justify;
+  }
+</style>
+
+## Un dashboard pour anticiper la fonte des glaciers
+
+Ce site a été entièrement conçu dans le cadre du projet ACLIMO, un projet dédié à l'étude et à la compréhension des impacts du changement climatique sur les environnements montagnards et glaciaires. Développée sous la forme d'un tableau de bord interactif, cette plateforme innovante offre une visualisation intuitive, interactive et précise de la fonte des glaciers, permettant ainsi de mieux appréhender les dynamiques en jeu dans ces écosystèmes fragiles.
+
+Les zones étudiées couvrent trois parcs nationaux emblématiques des Alpes occidentales : la Vanoise, les Écrins et le Grand Paradis. Ces espaces protégés, riches en biodiversité et en paysages uniques, abritent des glaciers qui jouent un rôle clé dans le maintien des écosystèmes locaux, ainsi que dans la régulation des ressources en eau. Grâce à cette plateforme, les utilisateurs peuvent explorer et analyser les trajectoires d'évolution des volumes glaciaires pour des bassins versants d'intérêt. Ces bassins versants ont été sélectionnés en collaboration avec les équipes de gestion des parcs nationaux.
+
+La période d'analyse couvre les années 2020 à 2050, avec une modélisation fine prenant en compte trois trajectoires distinctes d'évolution des volumes glaciaires, reflétant des hypothèses variées en termes de changements climatiques et de facteurs environnementaux. Ces trajectoires offrent une vision prospective essentielle pour soutenir la prise de décision, la gestion durable des territoires et la sensibilisation du grand public.
+
+Cette plateforme se veut être un outil à la fois pédagogique, scientifique et d'aide à la décision, accessible aussi bien aux étudiants, aux chercheurs ainsi qu'aux gestionnaires de parcs ou aux citoyens intéressés par l'évolution des glaciers alpins face aux défis environnementaux actuels.
+

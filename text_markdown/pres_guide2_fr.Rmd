@@ -1,0 +1,16 @@
+---
+title: "pres_guide2"
+output: html_document
+---
+
+### **Etape 2** 
+
+### Interface de visualisation des données
+
+En premier lieu (« **1** »), il s'agit de sélectionner la trajectoire à visualiser dans les sections « Récapitulatif » et « Visualisation graphique ». Située en haut de l'écran, la sélection et le changement de trajectoire s'effectuent simplement en cliquant sur les différentes cases de la barre de sélection. Par défaut, la trajectoire intermédiaire est sélectionnée.  
+<br> 
+Un second volet (« **2** ») de variables permet de modifier les graphiques affichés ci-dessous. Les modifications possibles concernent les variables à visualiser : le volume (en m³) ou la contribution hydrique des glaciers (en l/s).  
+La barre de sélection de la période permet de choisir l'intervalle temporel à afficher en déplaçant ses extrémités. Enfin, le switch situé à droite de la barre de sélection des années permet de décomposer les graphiques affichés. Dans un souci de lisibilité, cette option n'est fonctionnelle que si le nombre de bassins versants sélectionnés est compris entre 2 et 8.  
+<br> 
+Le troisième volet (« **3** ») permet de visualiser les données en fonction des variables sélectionnés dans les deux premiers volets. La première visualisation est une carte représentant la différence d'épaisseur entre le début et la fin de la période sélectionnée. Les trois graphiques suivants permettent de visualiser efficacement les variations du volume de glace ou de la contribution hydrique. Une explication succincte des graphiques est accessible via les menus situés en haut à gauche de chaque graphique. Notez que le menu du premier graphique permet également de passer l'axe Y en log10 afin de mieux visualiser les petits glaciers.  
+Il est possible d'afficher les graphiques en plein écran en cliquant sur le bouton situé en bas à droite de chaque graphique. Il est également possible de les enregistrer au format .png via le menu présent en haut à droite de chaque graphique.

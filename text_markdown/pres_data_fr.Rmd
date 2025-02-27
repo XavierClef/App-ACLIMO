@@ -1,0 +1,59 @@
+---
+title: "pres_data"
+output: html_document
+---
+
+### Données issues de modélisation
+
+Vis-à-vis de la composante glaciaire, l'objectif est d'étudier l'évolution des glaciers d'ici 2050 dans trois parcs nationaux des Alpes occidentales contenant des glaciers : la Vanoise, les Écrins et le Grand Paradis. Cette étude s'appuie sur une combinaison d'outils et de données d'observation et de modélisation.\
+<br>
+
+#### Modélisation de l'épaisseur des glaciers
+
+Pour estimer le volume annuel et la contribution hydrique de chaque glacier, des modélisations de l'évolution de l'épaisseur des glaciers entre 2020 et 2050 ont été utilisées. Ces modélisations sont issues d'un travail de recherche conduit par un ensemble de chercheurs de l’Université de Lausanne en Suisse (UNIL, Samuel Cook et Guillaume Jouvet), de l'Université Grenoble Alpes en France (UGA, Antoine Rabatel et Romain Millan), de l'Université de Zurich en Suisse (Inès Dussaillant) et de l'Université de Bruxelles en Belgique (Harry Zekollary). Leur approche repose sur une méthode d'intelligence artificielle basé sur l'apprentissage profond, capable d'estimer l'évolution future des glaciers à partir de données issues de la télédétection satellitaire et d'un modèle dynamique. Les résultats de leur travail couvrent l'ensemble de l'arc alpin européen. Pour plus de détails, voir l'article ([lien](https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2023GL105029)).\
+<br>
+
+L'apprentissage du modèle repose également sur l'analyse historique des changements glaciaires entre 2000 et 2019, garantissant ainsi que les modélisations reflètent l'évolution observée des glaciers au cours des 20 dernières années.\
+Les données produites par le modèle se présentent sous la forme d'une multitude de fichiers raster où chaque pixel couvre, sur la carte, une surface de 100 m par 100 m. Les sorties du modèle ont été traitées afin de corriger certains pixels ayant des valeurs aberrantes. Cela permet de limiter la surestimation du stock de glace pour les glaciers impactés par les pixels aberrants.
+<br>
+A partir des estimations de l'épaisseur de glace, il est donc possible de connaître le volume de glace compris dans la surface d'un glacier. En sommant la valeur d'épaisseur de glace de chacun des pixels compris dans l'emprise d'un glacier, on obtient le volume total du glacier pour une année donnée. Par ailleurs, la contribution hydrique annuelle d'un glacier a aussi été calculée. Elle correspond à l'évolution du volume du glacier d'une année à l'autre. Elle est convertie en une contribution annuelle moyenne dont la valeur numérique est donnée en litres par seconde (l/s). A noter que si, pour une année donnée, un glacier gagne du volume, sa contribution moyenne annuelle est alors négative, c'est-à-dire que pour cette année là, le glacier aura à l'échelle de l'année, davantage stocké de la masse qu'il n'en aura perdu.
+  
+<br>
+
+#### Contour des glaciers
+
+Pour déterminer le contour des glaciers, le modèle utilise des données 2003 provenant de l'inventaire mondial des glaciers mis à disposition dans le cadre du [RGI Version 6](https://nsidc.org/data/nsidc-0770/versions/6).\
+Afin d'assurer une cohérence spatiale entre les modélisations et la méthode d'extraction des données dans le cadre de ce projet, c'est ce même contour des glaciers qui a été adopté.\
+<br>
+
+### Trajectoires d'évolution
+
+Le travail de modélisation réalisé par S. Cook et al. (2023) propose trois trajectoires d'évolution des glaciers basées sur ce que l'on appelle la "perte engagée" des glaciers. Celle-ci correspond au niveau minimum que les glaciers sont amenés à perdre dans les prochaines décennies compte-tenu de leur temps de réponse (leur inertie) à un changement des conditions environnementales. Ce temps de réponse est lié à la dynamique d'écoulement du glacier et est propre à chaque glacier en fonction de ses caractéristiques morpho-topographiques. Ainsi, ces trois trajectoires de "perte engagée" ont été établies à partir de différentes périodes historiques d'observations.\
+<br>
+
+### Trois trajectoires prospectives (2020-2050)
+
+<div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px;">
+
+<div style="padding: 15px;">
+<h4>Trajectoire optimiste</h4>
+<p><strong>Hypothèse :</strong> Stabilisation des conditions de perte de volume glaciaire à celles de la période 2000-2019</p>
+<p><strong>Impact :</strong> Perte de 34 % du volume glaciaire à l’échelle de l’arc alpin</p>
+</div>
+
+<div style="padding: 15px;">
+<h4>Trajectoire intermédiaire</h4>
+<p><strong>Hypothèse :</strong> Extrapolation temporelle du taux de perte de masse de la période 2000-2022</p>
+<p><strong>Impact :</strong> Perte de 46 % du volume glaciaire à l’échelle de l’arc alpin</p>
+</div>
+
+<div style="padding: 15px;">
+<h4>Trajectoire pessimiste</h4>
+<p><strong>Hypothèse :</strong> Poursuite de l’accélération récente de la perte via une extrapolation temporelle du taux de perte de masse de la période 2010-2022</p>
+<p><strong>Impact :</strong> Perte de 65 % du volume glaciaire à l’échelle de l’arc alpin</p>
+</div>
+
+</div>
+
+
+<br>

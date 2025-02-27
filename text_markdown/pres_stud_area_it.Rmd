@@ -1,0 +1,23 @@
+---
+title: "pres_stud_area"
+output:
+  html_document:
+    css: "style.css"
+---
+
+<style>
+  body {
+    text-align: justify;
+  }
+</style>
+
+## Una dashboard per anticipare la fusione dei ghiacciai
+
+Questo sito è stato interamente sviluppato nell'ambito del progetto ACLIMO, un'iniziativa dedicata allo studio e alla comprensione degli impatti del cambiamento climatico sugli ambienti montani e glaciali. Realizzata sotto forma di dashboard interattiva, questa piattaforma innovativa offre una visualizzazione intuitiva, dinamica e accurata della fusione dei ghiacciai, permettendo di comprendere meglio le dinamiche in gioco in questi ecosistemi fragili.
+
+Le aree di studio comprendono tre parchi nazionali emblematici delle Alpi occidentali: la Vanoise, gli Écrins e il Gran Paradiso. Questi spazi protetti, caratterizzati da un'elevata biodiversità e da paesaggi unici, ospitano ghiacciai che svolgono un ruolo chiave nel mantenimento degli ecosistemi locali e nella regolazione delle risorse idriche. Grazie a questa piattaforma, gli utenti possono esplorare e analizzare gli scenari di evoluzione dei volumi glaciali nei bacini idrografici di interesse, selezionati in collaborazione con i team di gestione dei parchi nazionali.
+
+Il periodo di analisi copre gli anni dal 2020 al 2050, attraverso una modellizzazione dettagliata che considera tre diverse traiettorie di evoluzione dei volumi glaciali, basate su ipotesi variabili in termini di cambiamenti climatici e fattori ambientali. Queste traiettorie offrono una visione prospettica essenziale per supportare le decisioni, promuovere una gestione sostenibile del territorio e sensibilizzare il pubblico.
+
+Questa piattaforma si propone come uno strumento educativo, scientifico e di supporto alle decisioni, accessibile a studenti, ricercatori, gestori di parchi e cittadini interessati all’evoluzione dei ghiacciai alpini di fronte alle sfide ambientali attuali.
+

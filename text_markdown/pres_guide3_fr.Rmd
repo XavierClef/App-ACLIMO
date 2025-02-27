@@ -1,0 +1,13 @@
+---
+title: "pres_guide3"
+output: html_document
+---
+
+### **Etape 3**
+
+### Interface de téléchargement des données
+
+La première partie (« **1** ») permet de télécharger toutes les données utilisées par ce tableau de bord. Pour ce faire, il suffit de sélectionner le type de données souhaité : raster d'épaisseur ou bassin versant, puis de cliquer sur le bouton de téléchargement des données. Notez que si l'on souhaite télécharger les données propres à chaque bassin versant, un menu de sélection s'affiche pour choisir le format des données : CSV ou GPKG. Les données sont téléchargées directement pour les trois trajectoires. Les différentes trajectoires sont identifiables par le préfixe des bandes (pour le raster) et par le suffixe des colonnes (pour les fichiers .csv et .gpkg).  
+<br> 
+La deuxième partie (« **2** ») propose des fonctionnalités similaires à celles de la première partie, à la différence près qu'ici, seules les données des bassins versants sélectionnés à l'étape 1 peuvent être téléchargées.
+
